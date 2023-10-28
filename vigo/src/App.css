@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+  font-size: 40px;
+  margin: 15px;
+  padding: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.head {
+  text-align: center;
+  font-size: 40px;
+  margin: 15px;
+  padding: 0;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  gap: 20px;
+  text-align: center;
+}
+.parent a{
+  color: #008cff;
+  text-decoration: none;
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+.bar{
+  width: 250px;
+}
+.bar input , select{
+  margin: 10px;
+}
+.error{
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+.opt{
+  width: 350px;
+  height: 35px;
+  border-radius: 6px;
+  padding: 4px 11px;
+  margin: 5px 23px;
+  border: solid rgb(199, 199, 199);
+}
+.buttSub{
+    background-color: #fff;
+    border: 1px solid #9e9d9d;
+    border-radius: 6px;
+    cursor: pointer;
+    display: table;
+    width: 150px;
+    font-size: 15px;
+    font-family: revert;
+    height: 32px;
+    margin-left: 45%;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.tablePlanet p {
+  margin-top: 40px;
+}
+.buttSub:hover{
+  background-color: #e1e1e1;
+  border-color: #fff;
+  color: #fff;
+  transition: .5s ease-in-out;
+}
+.copyright{
+  display: table;
+  font-size: 13px;
+  margin: 0 auto;
+  padding: 70px 0 0;
+}
+.body-img{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.tablePlanet{
+  margin-left: 37%;
+}
+.langButt{
+  background-color: transparent;
+  border: none;
+}
+.langButt:hover{
+  background-color: #aeadad;
+  color: #e1e1e1;
+  transition: .5s ease-in-out;
+}

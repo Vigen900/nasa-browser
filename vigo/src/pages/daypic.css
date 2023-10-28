@@ -1,0 +1,42 @@
+.data-pic{
+    margin-left: 42%;
+    margin-top: 40px;
+    margin-right: 30px;
+    padding: 2px 5px;
+    border-radius: 6px;
+    border: 1px solid #9e9d9d;
+    background-color: azure;
+}
+.buttonDay{
+    background-color: #fff;
+    border: 1px solid #9e9d9d;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 30px;
+    padding: 6px;
+    text-transform: uppercase;
+    width: 50px;
+}
+.buttonDay:hover{
+  background-color: #e1e1e1;
+  border-color: #fff;
+  color: #fff;
+  transition: .5s ease-in-out;
+}
+.copyright{
+    margin-top: 100px;
+}
+.resp{
+    margin-top: 50px;
+    text-align: center;
+    font-style: oblique;
+}
+.dataImg{
+    margin-right: 20px;
+    padding: 35px;
+}
+.respText{
+    text-align: center;
+    font-size: 15px;
+}
