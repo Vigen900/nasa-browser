@@ -22,13 +22,13 @@ function App() {
     <>
     <LocaleContext.Provider value={{locale, setLocale}}>
       <header className='head'>
-          NASA BROWSER  
+          {t("NASA_BROWSER")}  
         </header>
         <div className='parent'>
           <Link to="/">{t('home')}</Link>|
           <Link to="/nearbyAsteroids">{t('nearbyAsteroids')}</Link>|
-          <Link to="/dayPicthure">ASTRONOMY PICTURE OF THE DAY</Link>|
-          <Link to="/newPlanet">SUBMIT NEW PLANET</Link>
+          <Link to="/dayPicthure">{t('AstranomyPictureOfTheDay')}</Link>|
+          <Link to="/newPlanet">{t('SubmitNewPlanet')}</Link>
           <button onClick={() => changeLanguage('en')} className='langButt'><span>EN</span></button>
           <button onClick={() => changeLanguage('hy')} className='langButt'><span>ՀՅ</span></button>
         </div>

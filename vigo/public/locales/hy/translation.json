@@ -1,4 +1,20 @@
 {
-    "home":"glxavor",
-    "nearbyAsteroids":"ape-ape"
+    "NASA_BROWSER":"NASA ԲՐԱՈՒԶԵՐ",
+    "home": "ԳԼԽԱՎՈՐ",
+    "nearbyAsteroids": "ՄՈՏԱԿԱ ԱՍՏԵՐՈԻԴՆԵՐԸ",
+    "AstranomyPictureOfTheDay": "ԱՍՏՂԱԳԻՏՈՒԹՅՈՒՆ - ՕՐՎԱ ՆԿԱՐ",
+    "SubmitNewPlanet": "ԱՎԵԼԱՑՆԵԼ ՆՈՐ ՄՈԼՈՐԱԿ",
+    "Search_forAsteroids_based_on_their_closest_approach_date_toEarth":"Որոնեք աստերոիդներ ելնելով Երկիր մոլորակին մոտենալու ամսաթվից",
+    "Each_day_a_different_image_or_photograph_of_our_fascinating_universe_is_featured,along_with_a_brief_explanation_written_by_a_professional_astronomer.":"Ամեն օր ցուցադրվում է մեր հետաքրքրաշարժ տիեզերքի տարբեր պատկեր կամ լուսանկար, ինչպես նաև պրոֆեսիոնալ աստղագետի կողմից գրված հակիրճ բացատրություն:",
+    "If_you_found_new_planet_you_can_add_it_to_our_directory": "Եթե ​​գտել եք նոր մոլորակ, կարող եք այն ավելացնել մեր գրացուցակին",
+    "PlanetName": "Մոլորակի անվանումը",
+    "Diametr":"Տրամագիծը",
+    "Distance_(mln_km)":"Հեռավորությունը (մլն կմ)",
+    "YourName":"Ձեր անունը",
+    "Email":"Էլ. Հասցե",
+    "Title":"Կոչում",
+    "Distance(km)":"Հեռավորություն (կմ)",
+    "AbsoluteMagnitude":"Բացարձակ մեծություն",
+    "Is_potentially_hazardous":"Պոտենցիալ վտանգավոր է",
+    "Diameter(meters)":"Տրամագիծ (մետր)"
 }

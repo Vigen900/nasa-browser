@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import '../Nerby.css'
-
+import { useTranslation } from 'react-i18next';
 
 
 function NearbyAsteroids () {
+    const {t} = useTranslation();
     const [startDate, setStartDate] = useState("");
     const [endDate, setEndDate] = useState("");
     const [asteroidsData, setAsteroidsData] = useState(null)
@@ -50,7 +51,7 @@ function NearbyAsteroids () {
     return<>
 
     <p className="data">
-        Search for Asteroids based on their closest approach date to Earth
+        {t('Search_forAsteroids_based_on_their_closest_approach_date_toEarth')}
     </p>
     <div>
         <form className="data">
@@ -79,11 +80,11 @@ function NearbyAsteroids () {
         <table className="table">
             <thead className="table-row">
                 <tr>
-                    <th>Title</th>
-                    <th>  Distance(km)</th>
-                    <th>  Absolute Magnitude</th>
-                    <th>  Is potentially hazardous</th>
-                    <th>  Diameter(meters)</th>
+                    <th>{t("Title")}</th>
+                    <th>{t("Distance(km)")}</th>
+                    <th>{t("AbsoluteMagnitude")}</th>
+                    <th>{t("Is_potentially_hazardous")}</th>
+                    <th>{t("Diameter(meters)")}</th>
                 </tr>
             </thead>
             <tbody className="row">

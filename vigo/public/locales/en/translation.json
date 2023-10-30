@@ -1,4 +1,20 @@
 {
-    "home":"home",
-    "nearbyAsteroids":"Nearbyasteroids"
+    "NASA_BROWSER":"NASA BROWSER",
+    "home": "HOME",
+    "nearbyAsteroids": "NEARBY ASTEROIDS",
+    "AstranomyPictureOfTheDay": "ASTRONOMY PICTURE OF THE DAY",
+    "SubmitNewPlanet": "SUBMIT NEW PLANET",
+    "Search_forAsteroids_based_on_their_closest_approach_date_toEarth": "Search for Asteroids based on their closest approach date to Earth",
+    "Each_day_a_different_image_or_photograph_of_our_fascinating_universe_is_featured,along_with_a_brief_explanation_written_by_a_professional_astronomer.": "Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.",
+    "If_you_found_new_planet_you_can_add_it_to_our_directory": "If you found new planet you can add it to our directory",
+    "PlanetName": "Planet Name",
+    "Diametr":"Diametr",
+    "Distance_(mln_km)":"Distance (mln km)",
+    "YourName": "Your Name",
+    "Email":"Email",
+    "Title":"Title",
+    "Distance(km)":"Distance (km)",
+    "AbsoluteMagnitude":"Absolute Magnitude",
+    "Is_potentially_hazardous":"Is potentially hazardous",
+    "Diameter(meters)":"Diameter (meters)"
 }

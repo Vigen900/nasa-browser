@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import './daypic.css'
+import { useTranslation } from 'react-i18next';
 
 function DayPicthure () {
+    const {t} = useTranslation();
     const [date, setdate] = useState("");
     const [apod, setapod] = useState({})
 
@@ -15,6 +17,7 @@ function DayPicthure () {
             })
     } 
     return <>
+        <p className="day_text_style"> {t('Each_day_a_different_image_or_photograph_of_our_fascinating_universe_is_featured,along_with_a_brief_explanation_written_by_a_professional_astronomer.')}</p>
         <input className="data-pic" id="date" 
         type="date" 
         placeholder="Select date" 
